@@ -46,4 +46,24 @@ body{
     font-size: 5rem;
     font-family: montserray-bold;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #dc3545;
+}
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-brand {
+        font-weight: 600;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+    }
+}
