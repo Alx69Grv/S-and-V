@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <title>Skoda & Volkswagen | Официальный дилер</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Гамбургер-меню -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-logo" src="img/Logo.jpg" alt="Logo">
+                    Skoda & Volkswagen
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Skoda.html">Skoda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="VW.html">Volkswagen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Подать заявку</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row justify-content-center align-items-center header d-none d-lg-flex">
+            <div class="col">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-auto"><img class="img-logo" src="img/Logo.jpg" alt=""></div>
+                        <div class="col-auto">Skoda & Volkswagen</div>    
+                    </div>
+                </div>
+            </div>
+            <div class="col phone">+7 (495) 123-45-67
+                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">Задать вопрос</button>
+            </div>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-auto header-text">
+            <form>
+              <a href="form.html" class="btn btn-danger">Подать заявку</a>
+            </form>
+          </div>
+        </div>
+        <!-- ... остальной HTML код ... -->
+        <div class="row justify-content-center my-5">
+            <div class="col-auto header-text">Skoda & Volkswagen: лучшие предложения</div>
+        </div>
+    </div>
+    <div class="row justify-content-center my-5">
+        <p class="card-text text-center">Skoda и Volkswagen – идеальное сочетание стиля, комфорта и надежности!
+        Забирайте свой идеальный автомобиль уже сегодня!
+        Не упустите шанс – Skoda и Volkswagen ждут вас!</p>
+    </div>
+    <div class="row my-5 justify-content-center">
+        <div class="col-lg-3 col-md-8 col-sm-8 col-xs-8 mt-2">
+            <div class="card" style="width: auto;">
+                <img src="img/Logo-Skoda.jpg" class="card-img-top img-photo mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Skoda</h5>
+                  <p class="card-text text-center">Skoda — это автомобили с немецкими корнями, сочетающие в себе продуманную инженерию, долговечность и современные технологии. Каждая модель создана для тех, кто ищет практичность без компромиссов.</p>
+                  <form>
+                    <a href="Skoda.html" class="btn btn-danger">Подробнее</a>
+                  </form>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-8 col-sm-8 col-xs-8 mt-2">
+            <div class="card" style="width: auto;">
+                <img src="img/Logo-VW.jpg" class="card-img-top img-photo mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Volkswagen</h5>
+                  <p class="card-text text-center">Volkswagen — это символ автомобилестроения, где каждая деталь продумана до мелочей. Мощь, комфорт и инновации в каждом километре пути.</p>
+                  <form>
+                    <a href="VW.html" class="btn btn-danger">Подробнее</a>
+                  </form>
+                </div>
+              </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-10 offset-1 line"></div>
+        </div>
+    </div>
+</div>
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Укажите информацию</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <form></form>
+            <div class="row">
+
+                    <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label">Имя</label>
+                        <input type="email" class="form-control mx-1" id="exampleInputEmail1" placeholder="Укажите Ваше Имя" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col-6">
+                        <label for="exampleInputEmail1" class="form-label">Телефон</label>
+                        <input type="email" class="form-control mx-1" id="exampleInputEmail1" placeholder="Укажите Ваш телефон" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col-12">
+                      <label for="exampleInputEmail1" class="form-label">Ваш вопрос</label>
+                      <input type="email" class="form-control mx-1" id="exampleInputEmail1" placeholder="Задайте свой вопрос" aria-describedby="emailHelp">
+                  </div>
+         </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div class="row justify-content-center creator-cite">
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © The creator is cite
+            <a href="https://vk.com/alxgrv69" target="_blank">Alexander Bakanov</a>
+          </div>
+        </div>
+    </body>
+</html>
+
